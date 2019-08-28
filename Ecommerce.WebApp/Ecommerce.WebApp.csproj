@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>netcoreapp2.2</TargetFramework>
@@ -9,11 +9,30 @@
     <PackageReference Include="bootstrap" Version="3.4.1" />
     <PackageReference Include="Microsoft.AspNetCore.App" />
     <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.2.3" />
   </ItemGroup>
 
   <ItemGroup>
     <Folder Include="Models\" />
-    <Folder Include="wwwroot\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\assets\css\application.css" />
+    <None Include="wwwroot\assets\css\docs.css" />
+    <None Include="wwwroot\assets\css\toolkit-inverse.css" />
+    <None Include="wwwroot\assets\css\toolkit-light.css" />
+    <None Include="wwwroot\assets\fonts\toolkit-entypo.eot" />
+    <None Include="wwwroot\assets\fonts\toolkit-entypo.ttf" />
+    <None Include="wwwroot\assets\fonts\toolkit-entypo.woff" />
+    <None Include="wwwroot\assets\fonts\toolkit-entypo.woff2" />
+    <None Include="wwwroot\assets\fonts\toolkit-entypod41d.eot" />
+    <None Include="wwwroot\assets\img\avatar-mdo.png" />
+    <None Include="wwwroot\assets\js\application.js" />
+    <None Include="wwwroot\assets\js\chart.js" />
+    <None Include="wwwroot\assets\js\jquery.min.js" />
+    <None Include="wwwroot\assets\js\popper.min.js" />
+    <None Include="wwwroot\assets\js\tablesorter.min.js" />
+    <None Include="wwwroot\assets\js\toolkit.js" />
   </ItemGroup>
 
   <ItemGroup>
